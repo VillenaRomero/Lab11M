@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "name": "playerflapybird",
+    "maps": [
+        {
+            "name": "birdplayer",
+            "id": "a58d0594-eb4a-440f-9f2b-c2048c577377",
+            "actions": [
+                {
+                    "name": "Playerbird",
+                    "type": "Button",
+                    "id": "4608055d-496c-4c14-b976-2feae213f183",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b45300d5-de99-4963-b195-87883a90a1e9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";keyboard",
+                    "action": "Playerbird",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "keyboard",
+            "bindingGroup": "keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
