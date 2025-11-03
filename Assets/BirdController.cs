@@ -25,7 +25,7 @@ public class BirdController : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed && Keyboard.current.spaceKey.isPressed)
+        if (ctx.performed)
         {
             impulsoSolicitado = true;
         }

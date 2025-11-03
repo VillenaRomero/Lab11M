@@ -7,6 +7,7 @@ TagManager:
   - puntaje
   - Tuberia
   - LimitesCamara
+  - vacio
   layers:
   - Default
   - TransparentFX
